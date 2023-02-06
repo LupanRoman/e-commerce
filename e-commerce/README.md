@@ -1,5 +1,0 @@
-# Sanity Clean Content Studio
-
-Token
-
-sklpOnMaZjQspdioKg0OlUOC2Qp8dzj97WCzcxDGwNlHWQBbno2rx5jKejrZKh30FRME3GHPNkT5YCyJIVmpV1A05UkBoF72NeJkltUJeA0Y0Iy4hU41Z1UlKWRUeMUxmOasumKpiHZA1p3tfU71mGSUnUU9qhDOw6c50QkmYAbHVvQG8we9
