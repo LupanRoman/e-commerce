@@ -1,0 +1,1 @@
+// !! This is the page with games related to that specific genre

@@ -1,0 +1,1 @@
+// !! This component contains a card a LINK with preview details about a game, and is rendered multiple times on the screen

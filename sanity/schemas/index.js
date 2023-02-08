@@ -1,3 +1,5 @@
-import pet from './pet'
+import Game from './Game'
+import TopBanner from './TopBanner'
+import BottomBanner from './BottomBanner'
 
-export const schemaTypes = [pet]
+export const schemaTypes = [Game, TopBanner, BottomBanner]

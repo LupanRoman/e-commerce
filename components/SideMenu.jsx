@@ -1,0 +1,1 @@
+// !! here will be placed links that will sort the games based on genre they will link to [type].js
