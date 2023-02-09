@@ -1,1 +1,14 @@
-// !! here will be placed links that will sort the games based on genre they will link to [type].js
+import React from 'react';
+import Link from 'next/link';
+
+const SideMenu = () => {
+  return (
+    <>
+      <div>
+      <h3>Side Menu</h3>
+      </div>
+    </>
+  );
+};
+
+export default SideMenu;
