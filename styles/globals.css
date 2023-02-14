@@ -7,3 +7,45 @@
 * {
     font-family: 'Inconsolata';
 }
+
+.side-menu {
+    height: 95vh;
+    position: fixed;
+    top: 20px;
+    left: -100%;
+    background-color: aqua;
+}
+
+.side-menu.active {
+    left: 0;
+}
+
+/* !! HOME SCREEN Grid layout for the medium screens and above  */
+
+@media screen and (min-width: 768px) {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .top-bar {
+        grid-column: 2/7;
+    }
+    
+    .side-menu {
+        height: auto;
+        position: static;
+        grid-column: 1/2;
+        grid-row: 1/9;
+    }
+
+    .content {
+        grid-column: 2/7;
+        grid-row: 2/9;
+    }
+}
+
+
+
+/* !! HOME SCREEN Grid layout for the medium screens and above  */

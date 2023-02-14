@@ -14,12 +14,12 @@ const index = ({ games }) => {
           <TopBanner />
         </div>
         <div className="bs">
-          <h3>Best Selling</h3>
-          <Game />
+          {/* <h3>Best Selling</h3> */}
+          {/* <Game /> */}
         </div>
 
         <div>
-          <BottomBanner />
+          {/* <BottomBanner /> */}
         </div>
       </div>
     </>

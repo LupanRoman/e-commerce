@@ -1,12 +1,15 @@
 import '../styles/globals.css';
+import { StateContext } from '../context/StateContext';
 
 function MyApp({ Component, pageProps }) {
   const Layout = Component.Layout || EmptyLayout;
   return (
     <>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <StateContext>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </StateContext>
     </>
   );
 }
