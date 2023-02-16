@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         'main-bg': '#FEF2DC',
         'menu-btn': '#4F846E',
+        'banner-bg': '#ecebeb',
       },
     },
   },

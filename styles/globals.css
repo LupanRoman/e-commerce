@@ -13,29 +13,13 @@
     position: fixed;
     top: 20px;
     left: -100%;
-    background-color: aqua;
+    background-color: #ecebeb;
     z-index: 999;
 }
 
 .side-menu.active {
     left: 0;
 }
-
-.top-banner-component {
-    height: 20vh;
-    width: 100%;
-}
-
-/* .top-banner-bg-image {
-    height: 20vh;
-    width: 100%;
-    object-fit: contain;
-} */
-
-.top-banner-content {
-    z-index: 99;
-}
-
 
 /* !! HOME SCREEN Grid layout for the medium screens and above  */
 
@@ -62,7 +46,5 @@
         grid-row: 2/9;
     }
 }
-
-
 
 /* !! HOME SCREEN Grid layout for the medium screens and above  */

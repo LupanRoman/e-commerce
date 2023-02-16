@@ -10,11 +10,11 @@ const HomeLayout = ({ children }) => {
         <title>Gamify</title>
         <link rel="icon" href="/icon.svg" />
       </Head>
-      <div className="grid-layout flex flex-col p-5 bg-main-bg h-screen">
+      <div className="grid-layout flex flex-col p-5 h-screen">
         <div className="top-bar md:pl-5">
           <TopBar />
         </div>
-        <div className="side-menu" id="side-menu">
+        <div className="side-menu md:rounded-lg" id="side-menu">
           <SideMenu />
         </div>
         <div className="content md:pl-5">{children}</div>

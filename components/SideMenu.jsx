@@ -17,6 +17,7 @@ const SideMenu = () => {
             width={100}
             height={100}
             className=" hidden md:flex ml-auto mr-auto pt-5"
+            priority
           />
           <h1 className="font-bold text-xl pl-10 pt-10 md:hidden">Gamify</h1>
           <button

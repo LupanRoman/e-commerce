@@ -9,7 +9,7 @@ import { client } from '../library/sanityClient';
 const index = ({ games }) => {
   return (
     <>
-      <div>
+      <div className="pt-5 md:pt-0 md:pl-10 md:pr-10">
         <div>
           <TopBanner />
         </div>
@@ -18,9 +18,7 @@ const index = ({ games }) => {
           {/* <Game /> */}
         </div>
 
-        <div>
-          {/* <BottomBanner /> */}
-        </div>
+        <div>{/* <BottomBanner /> */}</div>
       </div>
     </>
   );
