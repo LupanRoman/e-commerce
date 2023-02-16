@@ -40,5 +40,10 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'bestSelling',
+      title: 'Is Best Selling',
+      type: 'boolean',
+    },
   ],
 }
