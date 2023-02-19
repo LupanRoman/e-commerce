@@ -18,7 +18,7 @@ export default {
     },
     {
       name: 'sale',
-      title: 'Sale price',
+      title: 'Sale Percentage',
       type: 'number',
     },
     {

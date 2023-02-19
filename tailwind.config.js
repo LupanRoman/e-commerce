@@ -13,6 +13,9 @@ module.exports = {
         'menu-btn': '#4F846E',
         'banner-bg': '#ecebeb',
       },
+      spacing: {
+        '4k': '500px',
+      },
     },
   },
   plugins: [],
