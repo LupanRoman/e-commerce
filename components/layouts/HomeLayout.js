@@ -10,7 +10,7 @@ const HomeLayout = ({ children }) => {
         <title>Gamify</title>
         <link rel="icon" href="/icon.svg" />
       </Head>
-      <div className="grid-layout flex flex-col p-5 2xl:pl-4k 2xl:pr-4k xl:pl-36 xl:pr-36 lg:pl-10 lg:pr-10 h-screen">
+      <div className="grid-layout flex flex-col p-5 h-screen">
         <div className="top-bar md:pl-5">
           <TopBar />
         </div>

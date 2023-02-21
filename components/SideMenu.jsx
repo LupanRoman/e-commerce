@@ -36,6 +36,24 @@ const SideMenu = () => {
                 <Link href={''}>
                   <li>Action</li>
                 </Link>
+                <Link href={''}>
+                  <li>RPG</li>
+                </Link>
+                <Link href={''}>
+                  <li>Arcade</li>
+                </Link>
+                <Link href={''}>
+                  <li>Strategy</li>
+                </Link>
+                <Link href={''}>
+                  <li>Racing</li>
+                </Link>
+                <Link href={''}>
+                  <li>Adventure</li>
+                </Link>
+                <Link href={''}>
+                  <li>Simulation</li>
+                </Link>
               </ul>
             </div>
           </div>

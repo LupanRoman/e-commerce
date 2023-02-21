@@ -21,7 +21,6 @@ const index = ({ games, topBanner, bottomBanner }) => {
             ))}
           </div>
         </div>
-
         <div className="pb-10">
           <BottomBanner bottomBanner={bottomBanner} />
         </div>
