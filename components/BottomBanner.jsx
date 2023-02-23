@@ -11,6 +11,7 @@ const BottomBanner = ({ bottomBanner }) => {
             alt=""
             height={250}
             width={200}
+            className="rounded-xl"
           />
         </div>
         <div className="flex flex-col items-center">

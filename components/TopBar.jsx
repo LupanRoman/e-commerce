@@ -6,7 +6,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { useStateContext } from '../context/StateContext';
 
 const TopBar = () => {
-  const { openMenu } = useStateContext();
+  // const { openMenu } = useStateContext();
 
   const darkMode = () => {
     document.body.classList.toggle('dark');
@@ -18,11 +18,8 @@ const TopBar = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between ">
+      <div className="flex items-center justify-between md:pl-10 md:pr-10 pt-5 pb-5">
         <div className="flex gap-10 items-center">
-          <button className="md:hidden bg-menu-btn p-2" onClick={openMenu}>
-            {<IoIosArrowForward />}
-          </button>
           <h1 className="font-bold text-xl dark:text-red-500">Gamify</h1>
         </div>
         <div className="flex gap-3 items-center">

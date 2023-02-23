@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { urlFor } from '../library/sanityClient';
@@ -8,7 +7,7 @@ const Game = ({ game: { image, title, price, slug, bestSelling } }) => {
     <>
       {bestSelling == true ? (
         <Link href={`/game/${slug.current}`}>
-          <div className="game-card flex flex-col justify-center items-center pt-5 md:mb-20">
+          <div className="game-card flex flex-col justify-center items-center pt-5 md:mb-10">
             <img
               src={urlFor(image[0])}
               alt=""
