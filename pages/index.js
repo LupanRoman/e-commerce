@@ -1,9 +1,7 @@
-import Link from 'next/link';
 import React from 'react';
 import BottomBanner from '../components/BottomBanner';
 import Game from '../components/Game';
 import DetailsLayout from '../components/layouts/DetailsLayout';
-// import HomeLayout from '../components/layouts/HomeLayout';
 import TopBanner from '../components/TopBanner';
 import { client } from '../library/sanityClient';
 
@@ -16,7 +14,7 @@ const index = ({ games, topBanner, bottomBanner }) => {
         </div>
         <div className="bs pt-10 mb-20">
           <h3 className="font-bold text-xl md:text-2xl">Best Selling</h3>
-          <div className="game-component justify-center gap-5">
+          <div className="game-component justify-center items-end gap-5">
             {games.map((game) => (
               <Game game={game} key={game._id} />
             ))}

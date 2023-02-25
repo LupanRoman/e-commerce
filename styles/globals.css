@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: 'Inconsolata';
+    font-family: 'Roboto';
 }
 
 .top-banner-component {
     box-shadow: 10px 10px 80px rgb(197, 195, 195);
+}
+
+.bottom-banner-component {
+    box-shadow: 10px 10px 80px rgb(197, 195, 195);
+
 }
 
 .page {
