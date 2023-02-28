@@ -12,6 +12,7 @@ module.exports = {
         'main-bg': '#FEF2DC',
         'menu-btn': '#4F846E',
         'banner-bg': '#ecebeb',
+        'buy-btn': '#E5C212',
       },
       spacing: {
         '4k': '500px',

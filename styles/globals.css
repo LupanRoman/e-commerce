@@ -28,11 +28,6 @@
 }
 
 /* !! HOME SCREEN Grid layout for the medium screens and above  */
-/* @media screen and (min-width: 600px) {
-    .game-component {
-        flex-wrap: (2, 2, 20px);
-    }
-} */
 
 @media screen and (min-width: 768px) {
    .page {
